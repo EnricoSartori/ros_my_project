@@ -11,4 +11,10 @@
 	<!-- This script extract the interesting frames and publish the calculated angles on the reflex_commander topic -->
 	<node name="tf_to_CommandHand" pkg="leap_motion" type="tf_listener" output="screen" respawn="true"/>
 
+	<!-- USB CAM -->
+	<!-- This node publish the image captured by the default usb cam on this topic: /usb_cam/image_raw -->
+	<!--
+	<node name="usb_cam_node" pkg="usb_cam" type="usb_cam_node" respawn="true" />
+	-->
+
 </launch>
